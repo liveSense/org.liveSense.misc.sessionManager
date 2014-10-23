@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<features name="liveSense-${liveSense.version}-misc-sessionmanager" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0">
+
+    <feature name="liveSense-misc-sessionmanager" version="${liveSense.version}" description="liveSense Session Manager">
+        <bundle>mvn:${project.groupId}/${project.artifactId}/${project.version}</bundle>
+	</feature>
+
+</features>
